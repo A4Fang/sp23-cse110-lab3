@@ -1,2 +1,3 @@
-# Lab 2 - Starter
-Here's the [link](https://a4fang.github.io/Lab2_Starter/) to the webpage.
+#Lab 3
+
+Here's the [new link](https://github.com/A4Fang/sp23-cse110-lab3.git) to the webpage.
