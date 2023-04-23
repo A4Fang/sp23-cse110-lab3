@@ -1,0 +1,120 @@
+/* Hello, <style> box is at line 11 and inline CSS can be found here:
+<h1 style="text-align: center;">Mock Meeting Minutes</h1> 
+<h2 style="color:blue">Discussion</h2> */
+/*@media (width: 360px) {
+    div {
+      color: red;
+    }
+  }
+  
+@media (min-width: 35rem) {
+    div {
+      background: yellow;
+    }
+  }
+  
+@media (max-width: 50rem) {
+    div {
+      border: 2px solid blue;
+    }
+  } */
+
+h1 {
+    color: yellowgreen;
+    background-color: rgb(94, 42, 42);
+    margin-top: 1cm;
+    margin: 2cm;
+    border: 10px solid black;
+    height: auto;
+    position: sticky;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+header {
+    background-color: #008000;
+    padding-bottom: 50px;
+    padding: 0.1in;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+}
+
+h2 {
+    background-color: hsl(0, 50%, 50%);
+    border-style: dotted;
+    border-color: black;
+    border-radius: 10px;
+    max-width: fit-content;
+    min-width: auto;
+    position: static;
+}
+
+#Discussion {
+    padding: 3ex;
+    margin-left: 2lh;
+    margin-right: 2vw;
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+}
+
+.todo {
+    text-decoration: line-through;
+    text-align: center;
+    display: flex;
+}
+
+footer {
+    width: 10cm;
+}
+
+a:hover {
+    background-color: powderblue;
+}
+
+a:active {
+    background-color: yellow;
+}
+
+.todolist {
+    display: flex;
+    flex-direction: row;
+}
+
+div.Attendence {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.form-stuff {
+    display: grid;
+
+}
+
+.intro {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-row-gap: 2cm;
+    grid-column-gap: 2cm;
+}
+
+*|p {
+    color: red;
+}
+
+h2[title],div h3 {
+    color: green;
+}
+
+div > h2{
+    color: pink;
+}
+
+div + p {
+    color: magenta;
+}
+
+div ~ p {
+    background-color: yellow;
+}

@@ -4,12 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://github.com/A4Fang/Lab2_Starter">
+    <link rel="stylesheet" href="indexStyle.css">
     <title>CSE110: Lab 2</title>
 </head>
+
+<style>
+    .Attendence {
+        color: blue;
+    }
+</style>
+
 <body>
     <header>
-        <div>Mock Meeting Minutes</div>
+        <div class="intro">Mock Meeting Minutes
         <nav>
             <ul>
                 <li><a href="#Attendence">Attendence</a></li>
@@ -18,23 +25,24 @@
                 <li><a href="NextTime">Next Time</a></li>
             </ul>
         </nav>
+        </div>
     </header>
 
     <main>
-        <h1>Mock Meeting Minutes</h1>
+        <h1 style="text-align: center;">Mock Meeting Minutes</h1>
         <h2>April 16, 2023</h2>
 
-        <div class="#Attendence">
-            <h2>Attendence</h2>
+        <div class="Attendence">
+            <h2 title="Attendence">Attendence</h2>
             <ul>
-                <li>Andy Juan</li>
-                <li>Andy Two</li>
-                <li>Andy San</li>
+                <li title="one">Andy Juan</li>
+                <li title="two">Andy Two</li>
+                <li title="three">Andy San</li>
             </ul>
         </div>
 
-        <div class="#Discussion">
-            <h2>Discussion</h2>
+        <div id="Discussion">
+            <h2 style="color:blueviolet">Discussion</h2>
             <ol>
                 <li>
                     <h3>Introductions</h3>
@@ -85,16 +93,16 @@
 
             </ol>
         </div>
-        <section>
-            <h2>Todo List</h2>
-            <ol>
-                <li><b>Juan:</b> Take out the trash</li>
-                <li><b>Two:</b> Clean up the table</li>
-                <li><b>San:</b> Plan the next meeting</li>
-                <li><span><b>Get some sleep</b></span></li>
-                <li><strong>GET SOME MORE SLEEP</strong> or sleep faster</li>
-            </ol>
-        </section>
+        <div class="todolist">
+                <h2 class="todo">Todo List</h2>
+                <ol>
+                    <li><b>Juan:</b> Take out the trash</li>
+                    <li><b>Two:</b> Clean up the table</li>
+                    <li><b>San:</b> Plan the next meeting</li>
+                    <li><span><b>Get some sleep</b></span></li>
+                    <li><strong>GET SOME MORE SLEEP</strong> or sleep faster</li>
+                </ol>
+       </div>
         <hr>
     </main>
 
@@ -147,5 +155,24 @@
 
         <textarea name="TOK" id="TOK" cols="30" rows="5">What is a theory? I said they are facts that are proven.</textarea>
     </footer>
+
+    <div></div>
+        <p>testing the div + p selector</p>
+   
+
+    <h2>General Sibling Selector</h2>
+
+<p>The general sibling selector (~) selects all elements that are next siblings of a specified element.</p>
+
+<p>Paragraph 1.</p>
+
+<div>
+  <p>Paragraph 2.</p>
+</div>
+
+<p>Paragraph 3.</p>
+<code>Some code.</code>
+<p>Paragraph 4.</p>
+
 </body>
 </html>
